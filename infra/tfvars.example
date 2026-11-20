@@ -1,0 +1,19 @@
+# 华为云 RAG Demo 配置示例
+# 复制此文件为 tfvars.dev 并填写实际值
+
+region            = "cn-north-4"
+project_id        = ""  # 留空则自动获取
+name              = "rag-demo"
+
+# CSS 配置
+css_version       = "2.3.9"
+css_instance_type = "css.medium"
+css_node_count    = 1
+css_volume_size   = 100
+css_admin_password = "YourSecurePassword123!"
+
+# 网络配置
+vpc_name   = "rag-vpc"
+vpc_cidr   = "10.0.0.0/16"
+subnet_name = "rag-subnet"
+subnet_cidr = "10.0.0.0/24"
