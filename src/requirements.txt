@@ -1,0 +1,16 @@
+# 华为云 RAG 依赖
+
+# 核心依赖
+requests>=2.31.0
+numpy>=1.24.0
+
+# 日志
+loguru>=0.7.0
+
+# 华为云 SDK (如需使用官方 SDK)
+# huaweicloudsdkcore>=3.1.208
+# huaweicloudsdknlp>=3.1.208
+
+# 可选: LangChain (如需使用 LangChain)
+# langchain>=0.1.0
+# langchain-community>=0.0.10
